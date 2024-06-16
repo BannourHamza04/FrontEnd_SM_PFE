@@ -1,0 +1,156 @@
+.bodyy {
+    width: 100%;
+    height: 100%;
+    background: url(../../public/imgs/images/HomeImg.jpg);
+}
+/* Standard */
+.container-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.landing-log{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 85%;
+    background-color: orange;
+    border: #333 solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form-container-log{
+    background-color: whitesmoke;
+    left: 1;
+    width: 50%;
+    padding: 20px;
+    margin: 15px;
+    border: #333 solid 1px;
+    border-radius: 6px;
+}
+
+.input-group-log {
+    margin-bottom: 10px;
+}
+
+.class-input {
+    position: relative;
+	height: 50px;
+	width: 100%;
+	/* outline: none; */
+	font-size: 1rem;
+	color: #707070;
+	margin-top: 8px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 0 15px;
+}
+
+.input-submit-log {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.input-submit-log:hover {
+    background-color: #ffa500;
+    transition: all 0.6s;
+}
+
+.input-google-log {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.input-google-log:hover {
+    background-color: orange;
+    transition: all 0.6s;
+}
+
+.class-label {
+    color: #333;
+	width: 30px;
+    height: 30px;
+    position: relative;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cover-log{
+    flex: 1;
+    text-align: right;
+    background-image: url(../../public/imgs/images/Login_Gym2.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.text-overlay-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.text-overlay-log h2 {
+    color: white;
+}
+
+.text-log {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.text-log a {
+    text-decoration: none;
+    color: orange;
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    .landing-log{
+        width:95%;
+        background-color: whitesmoke;
+        padding: 0;
+        height: 500px;
+    }
+    .cover-log{
+        display: none;
+    }
+    .form-container-log{
+        width: 100%;
+        border: none;
+        margin: 0;
+    }
+    .form-log{
+        border: none;
+    }
+}
+
+/* Tablette */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .landing-log {
+        height: auto;
+    }
+    .cover-log{
+        height: 500px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    
+}

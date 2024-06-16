@@ -1,0 +1,143 @@
+/* Start Notifications */
+
+
+
+.post-Notif {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    margin-top: 110px;
+    margin-bottom: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.info-Notif {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.info-Notif .username-Notif {
+    width: auto;
+    font-weight: 400;
+    color: #000;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 45px;
+}
+
+.info-Notif .username-Notif span {
+    font-weight: bold;
+}
+
+.info-Notif .options-Notif {
+    height: 40px;
+    cursor: pointer;
+}
+
+.info-Notif .user-Notif {
+    display: flex;
+    align-items: center;
+}
+
+.info-Notif .profile-pic-Notif {
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    background: none;
+
+}
+
+.info-Notif .profile-pic-Notif img {
+    border: none;
+    cursor: pointer;
+}
+
+/* End Notifications */
+
+/* Styles pour le chevron gauche */
+.chevron-left {
+    width: 20px;
+    height: 20px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #000;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.gg--chevron-left {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M16.243 6.343L14.828 4.93L7.758 12l7.07 7.071l1.415-1.414L10.586 12z'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    cursor: pointer;
+}
+
+/* Styles pour les appareils de petite taille (Mobile) */
+@media only screen and (max-width: 767px) {
+
+    .post-Notif{
+        position: absolute;
+        top: 50px;
+        left: 0%;
+        margin-top: 0;
+    }
+    .wrapper-Notif{
+        height: 100vh;
+        margin-bottom: 60px;
+    }
+}
+
+
+/* Styles pour les tablettes */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .post-Notif {
+        width: 50%;
+        margin-top: 50px;
+    }
+}
+
+/* End Followers */
+
+.button {
+    padding: 3px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+.button3 {
+    background-color: #4d90fe; 
+    color: white; 
+    border: 2px solid #4d90fe;
+}
+
+.button3:hover {
+    background-color: #1557c2;
+    color: white;
+    border: 2px solid white;
+}
