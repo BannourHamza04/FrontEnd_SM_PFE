@@ -25,7 +25,7 @@ export default function Accueill() {
             </div>
             <div className="landing">
                 <div className="intro-text">
-                    <h1>Welcome to our Web App</h1>
+                    <h1>Welcomeee to our Web App</h1>
                     <p> Transform your life with our personalized fitness programs tailored for all levels. Join our community and start your journey towards better health and well-being today with Your Friends.</p>
                 </div>
             </div>
