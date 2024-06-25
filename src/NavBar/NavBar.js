@@ -35,7 +35,7 @@ export default function NavBar() {
           <Link to='/Notifications'>
             <img src="\imgs\images\img\notification.png" className="icon" alt="" />
           </Link>
-
+          
           <div className="icon user-profile" alt="" onClick={toggleMenu}>
             {showMenu && (<ul className="profile-dropdown-list">
               <li className="profile-dropdown-list-item">
@@ -63,7 +63,7 @@ export default function NavBar() {
                 </Link>
               </li>
               <li className="profile-dropdown-list-item">
-                <Link to="/Login" onClick={handleLogout}>
+                <Link onClick={handleLogout}>
                   <i className="fa-solid fa-arrow-right-from-bracket"></i>
                   Log out
                 </Link>
